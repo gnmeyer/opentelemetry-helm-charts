@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=./values.schema.json
-global:
-  ipv6_enabled: true
+ipv6_enabled: true
 
 default:
   # List of environment variables applied to all components

@@ -8,6 +8,7 @@
     {{- $config := set . "observability" $.Values.observability }}
     {{- $config := set . "defaultValues" $.Values.default }}
     {{- $config := set . "globalValues" $.Values.global }}
+    {{- $config := set . "Values" $.Values }}
 
     {{- if $config.enabled -}}
         {{- include "otel-demo.deployment" $config -}}
