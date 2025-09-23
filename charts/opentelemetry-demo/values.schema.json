@@ -8,11 +8,6 @@
       "description": "Usually used when using Opentelemetry-demo as a subchart.",
       "type": "boolean"
     },
-    "ipv6_enabled": {
-      "type": "boolean",
-      "default": false,
-      "description": "Enable IPv6 support"
-    },
     "default": {
       "$ref": "#/definitions/Default"
     },
