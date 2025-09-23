@@ -8,6 +8,9 @@
       "description": "Usually used when using Opentelemetry-demo as a subchart.",
       "type": "boolean"
     },
+    "global": {
+      "type": "object"
+    },
     "default": {
       "$ref": "#/definitions/Default"
     },
